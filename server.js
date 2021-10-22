@@ -11,7 +11,7 @@ Date: 2021.10.03
  * Module dependencies.
  */
 
-var app = require('./app');
+var app = require('./server/config/app');
 var debug = require('debug')('comp229---assignment-1:server');
 var http = require('http');
 

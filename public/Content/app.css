@@ -2,7 +2,7 @@
 File Name: public/Content/app.css
 Student's Name: Gaeun Kim
 StudentID: 301157178
-Date: 2021.10.03
+Date: 2021.10.21
 */
 
 /*Determine the properties of the background*/
@@ -20,9 +20,10 @@ section {
 .curve {
     position: absolute;
     height: 250px;
-    width: 100%;
+    width: 96.7%;
     bottom: 0;
     text-align: center;
+    
 }
 
 /*Using ellipse to express wave*/
@@ -36,6 +37,7 @@ section {
     height: 100%;
     transform: translate(-6%, 60%);
     background-color: white;
+    
 }
 
 /*Second ellipse*/
@@ -62,6 +64,7 @@ section {
     padding-top:200px;
     padding-left: 300px;
     padding-right: 300px;
+    
 }
 
 /*Remove the border of card*/
@@ -70,13 +73,6 @@ section {
     border: 0;
     outline: 0;
 }
-
-/*Prevent horizontal scrolling*/
-main {
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-
 
 #introduce {
     text-align: justify;
@@ -115,4 +111,35 @@ main {
 }
 #card4 {
     color:rgb(177, 177, 35);
+}
+
+
+#login {
+    text-align: center;
+    color: green;
+}
+
+/* Set z-index to 6 to place it in front of the curve */
+#loginListForm {
+    border: solid green 3px;
+    position: relative;    
+    z-index: 6;
+    padding: 30px;
+}
+
+/* Remove underline and change color */
+#register {
+    text-decoration: none;
+    color:rgb(218, 61, 61);
+}
+
+/* Set z-index to 6 to place it in front of the curve */
+#contactList {
+    position: relative;
+    z-index: 6;
+}
+
+/* Make font bold */
+#bold {
+    font-weight: bold;
 }
