@@ -59,37 +59,17 @@ section {
 
 .container2 {
     width: auto; 
-    height: 1300px;
+    height: auto;
     text-align: center;
     padding-top:200px;
     padding-left: 300px;
     padding-right: 300px;
+    padding-bottom: 200px;
     
-}
-
-/*Remove the border of card*/
-.card {
-    height: 300px;
-    border: 0;
-    outline: 0;
 }
 
 #introduce {
     text-align: justify;
-}
-
-#form {
-    border: solid rgb(70, 180, 112) 5px;
-    border-radius: 3px;    
-    width: 600px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#exampleFormControlInput1{
-    text-align: center;
 }
 
 #lgreen {
@@ -99,20 +79,6 @@ section {
 #green {
     color: green;
 }
-
-#card1 {
-    color: grey;
-}
-#card2 {
-    color: green;
-}
-#card3 {
-    color: rgb(218, 61, 61);
-}
-#card4 {
-    color:rgb(177, 177, 35);
-}
-
 
 #login {
     text-align: center;
@@ -142,4 +108,14 @@ section {
 /* Make font bold */
 #bold {
     font-weight: bold;
+}
+
+#mainnav{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+::content{
+    padding-top: 70px;
 }
